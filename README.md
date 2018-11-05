@@ -4,7 +4,7 @@
 [![coverage report](https://gitlab.com/smythian/gunrock/badges/master/coverage.svg)](https://gitlab.com/smythian/gunrock/commits/master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a2a2c9aa7a2541eab0fd119839d93382)](https://www.codacy.com/app/ecsmyth/gunrock?utm_source=gitlab.com&amp;utm_medium=referral&amp;utm_content=smythian/gunrock&amp;utm_campaign=Badge_Grade)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://gitlab.com/smythian/gunrock/blob/master/LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-brightgreen.svg)](https://gitlab.com/smythian/gunrock/activity)
+[![Maintenance](https://img.shields.io/badge/maintained-Yes-brightgreen.svg)](https://gitlab.com/smythian/gunrock/activity)
 
 Professional website for UC Davis Agricultural and Resource Economics PhD candidates
 
@@ -51,8 +51,9 @@ Gunrock uses the Gatsby v2 site generator and is styled after the HTML5 Up Strat
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [NVM](https://github.com/creationix/nvm) (Optional) If you use NVM, run `n=$(which node);n=${n%/bin/node}; chmod -R 755 $n/bin/*; sudo cp -r $n/{bin,lib,share} /usr/local` to copy Node to /usr/local
 * [Node](https://nodejs.org/en/download/)
-* [Yarn](https://yarnpkg.com/lang/en/docs/install). (Optional) To run `yarn security` the yarn version must be > 1.12 (currently the release candidate).
+* [Yarn](https://yarnpkg.com/lang/en/docs/install).
 * [Gatsby CLI](https://www.gatsbyjs.org/)
+* [Docker](https://docs.docker.com/install/) (Optional) To run visual regression tests
 
 ### Commands
 
@@ -64,6 +65,7 @@ Gunrock uses the Gatsby v2 site generator and is styled after the HTML5 Up Strat
 * `yarn test:visual` - Run visual regression tests
 * `yarn lint` - Lint JavaScript, Markdown, and YAML
 * `yarn storybook` - Start storybook (<https://localhost:9000>) and open in your default browser
+* `yarn security` - 
 
 ## Working with content
 

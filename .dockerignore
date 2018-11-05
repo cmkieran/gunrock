@@ -1,0 +1,9 @@
+.cache/
+.idea/
+.netlify/
+coverage/
+node_modules/
+public/
+storybook-static/
+testing/visual-regression/
+src/__tests__/__image_snapshots__

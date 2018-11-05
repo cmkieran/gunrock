@@ -1,4 +1,4 @@
-image: node:alpine
+image: node:11.1.0-alpine
 
 stages:
   - init
@@ -7,15 +7,14 @@ stages:
 init:
   stage: init
   script:
-    - apk add --update python g++ make
-    - apk add fftw-dev --update-cache --repository https://dl-3.alpinelinux.org/alpine/edge/main/
-    - apk add vips-dev --update-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/
+    - apk add --update --no-cache python g++ make
+    - apk add fftw-dev --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/main/
+    - apk add vips-dev --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/
     - yarn global add node-gyp
     - yarn install --silent
   artifacts:
     paths:
       - node_modules/
-      - public/
 
 lint:
   stage: test
@@ -30,6 +29,24 @@ unit-test:
     - yarn test:unit
   dependencies:
     - init
+
+visual-regression-test:
+  stage: test
+  before_script:
+    - apk add --update --no-cache git chromium nss
+    - apk add fftw-dev --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/main/
+    - apk add vips-dev --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/
+    - yarn install --silent
+    - yarn build
+    - yarn storybook:build
+  script:
+    - yarn test:visual:ci
+  dependencies:
+    - init
+  artifacts:
+    when: on_failure
+    paths:
+      - src/__tests__/__image_snapshots__/__diff_output__/
 
 security:
   stage: test

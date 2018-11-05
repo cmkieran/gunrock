@@ -1,0 +1,143 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+
+collections:
+  - name: pages
+    label: Pages
+    folder: src/pages/netlify
+    create: true
+    filter: { field: templateKey, value: Page }
+    slug: '{{slug}}'
+    fields:
+    - {label: Template Key, name: templateKey, widget: hidden, default: Page}
+    - {label: Title, name: title, widget: string}
+    - {label: Section, name: section, widget: string}
+    - {label: Draft, name: draft, widget: boolean, default: true}
+    - {label: Body, name: body, widget: markdown}
+    - label: Site Navigation
+      name: siteNav
+      widget: object
+      required: false
+      fields:
+      - {label: Label, name: label, widget: string}
+      - {label: Icon, name: icon, widget: string}
+      - {label: Order, name: order, widget: number, min: 0, max: 100, valueType: int}
+
+  - name: articles
+    label: Articles
+    folder: src/pages/netlify
+    create: true
+    filter: { field: templateKey, value: Article }
+    slug: '{{slug}}'
+    fields:
+    - {label: Template Key, name: templateKey, widget: hidden, default: Article}
+    - {label: Title, name: title, widget: string}
+    - {label: Section, name: section, widget: string}
+    - {label: Draft, name: draft, widget: boolean, default: true}
+    - {label: Authors, name: authors, widget: list}
+    - {label: Tags, name: tags, widget: list}
+    - {label: Date, name: date, widget: date}
+    - {label: Body, name: body, widget: markdown}
+    - label: Site Navigation
+      name: siteNav
+      widget: object
+      required: false
+      fields:
+      - {label: Label, name: label, widget: string}
+      - {label: Icon, name: icon, widget: string}
+      - {label: Order, name: order, widget: number, min: 0, max: 100, valueType: int}
+
+  - name: sections
+    label: Sections
+    folder: src/pages/netlify
+    create: true
+    filter: { field: templateKey, value: Section }
+    slug: '{{slug}}'
+    fields:
+    - {label: Template Key, name: templateKey, widget: hidden, default: Section}
+    - {label: Title, name: title, widget: string}
+    - {label: Draft, name: draft, widget: boolean, default: true}
+    - {label: Body, name: body, widget: markdown}
+    - label: Site Navigation
+      name: siteNav
+      widget: object
+      fields:
+        - {label: Label, name: label, widget: string}
+        - {label: Icon, name: icon, widget: string}
+        - {label: Order, name: order, widget: number, min: 0, max: 100, valueType: int}
+
+  - name: special
+    label: Other content
+    files:
+      - label: Homepage
+        name: homepage
+        file: src/pages/index.md
+        fields:
+        - {label: Template Key, name: templateKey, widget: hidden, default: Page}
+        - {label: Title, name: title, widget: string}
+        - {label: Body, name: body, widget: markdown}
+        - label: Site Navigation
+          name: siteNav
+          widget: object
+          required: false
+          fields:
+          - {label: Label, name: label, widget: string}
+          - {label: Icon, name: icon, widget: string}
+          - {label: Order, name: order, widget: number, min: 0, max: 100, valueType: int}
+      - label: Theme
+        name: theme
+        file: src/pages/theme/index.json
+        fields:
+          - label: Type
+            name: type
+            widget: select
+            options: [light, dark]
+          - label: Palette
+            name: palette
+            widget: object
+            fields:
+            - label: Primary
+              name: primary
+              widget: object
+              fields:
+              - {label: Main, name: main, widget: string, pattern: '[#[A-Fa-f0-9]{6}]'}
+            - label: Secondary
+              name: secondary
+              widget: object
+              fields:
+              - {label: Main, name: main, widget: string, pattern: '[#[A-Fa-f0-9]{6}]'}
+          - label: Fonts
+            name: fonts
+            widget: object
+            fields:
+            - {label: Body, name: body, widget: string}
+            - {label: Headings, name: heading, widget: string}
+      - label: Bio
+        name: bio
+        file: src/pages/bio/index.json
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Location, name: location, widget: text}
+          - {label: Avatar, name: avatar, widget: image}
+          - label: Contact
+            name: contact
+            widget: list
+            fields:
+              - {label: Label, name: label, widget: string}
+              - {label: Url, name: url, widget: string}
+              - {label: Icon, name: icon, widget: list}
+      - label: Site
+        name: site
+        file: src/pages/site/index.json
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Website URL, name: url, widget: string}
+          - {label: Sidebar Image, name: sidebar, widget: image}
+          - {label: Favicon, name: favicon, widget: image}
+          - {label: Description, name: description, widget: text}
+          - {label: Copyright, name: copyright, widget: string}

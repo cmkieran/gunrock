@@ -1,0 +1,11 @@
+{
+  "name": "Advanced D. Graduate",
+  "location": "1161 Social Sciences and Humanities\nUniversity of California, Davis\nDavis CA 95616",
+  "avatar": "/img/robot.jpg",
+  "contact": [
+    { "label": "Github", "url": "https://github.com/ucdavis", "icon": ["fab", "github"] },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/advancedgraduate", "icon": ["fab", "linkedin"] },
+    { "label": "Phone", "url": "tel:5305552233", "icon": ["fas", "phone"] },
+    { "label": "e-mail", "url": "mailto:adgraduate@ucdavis.edu", "icon": ["fas", "envelope"] }
+  ]
+}

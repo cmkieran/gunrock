@@ -1,0 +1,15 @@
+{
+  "type": "light",
+  "palette": {
+    "primary": {
+      "main": "#002855"
+    },
+    "secondary": {
+      "main": "#DAAA00"
+    }
+  },
+  "fonts": {
+    "body": "Montserrat, sans-serif",
+    "heading": "Gentium Book Basic, serif"
+  }
+}

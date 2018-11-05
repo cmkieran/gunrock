@@ -1,0 +1,22 @@
+# IDE
+.idea/
+.vscode/
+
+# Code coverage
+coverage/
+
+# Build folder
+.cache/
+public/
+storybook-static/
+
+# Node
+node_modules/
+
+# Image Snapshot Diffs
+__diff_output__
+
+# Dev server certs
+*.pem
+
+*.log

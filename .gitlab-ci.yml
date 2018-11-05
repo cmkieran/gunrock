@@ -1,0 +1,48 @@
+image: node:alpine
+
+stages:
+  - init
+  - test
+
+init:
+  stage: init
+  script:
+    - apk add --update python g++ make
+    - apk add fftw-dev --update-cache --repository https://dl-3.alpinelinux.org/alpine/edge/main/
+    - apk add vips-dev --update-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/
+    - yarn global add node-gyp
+    - yarn install --silent
+  artifacts:
+    paths:
+      - node_modules/
+      - public/
+
+lint:
+  stage: test
+  script:
+    - yarn lint
+  dependencies:
+    - init
+
+unit-test:
+  stage: test
+  script:
+    - yarn test:unit
+  dependencies:
+    - init
+
+security:
+  stage: test
+  script:
+    - yarn security
+  dependencies:
+    - init
+  allow_failure: true
+
+outdated:
+  stage: test
+  script:
+    - yarn outdated
+  only:
+    - master
+  allow_failure: true

@@ -1,7 +1,7 @@
 {
   "hooks": {
     "pre-commit": "yarn lint && yarn test",
-    "pre-push": "yarn outdated",
+    "pre-push": "yarn outdated || :",
     "post-merge": "yarn install && yarn snyk-protect"
   }
 }

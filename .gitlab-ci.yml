@@ -1,34 +1,37 @@
 image: node:11.1.0-alpine
 
+cache:
+  key: 54e007d19462352c2e1c28c5dcf9dcc6f363e71a2411ff1aa7a03e3da7252b81
+  paths:
+  - node_modules/
+
 stages:
-  - init
   - test
 
-init:
-  stage: init
-  script:
-    - apk add --update --no-cache python g++ make
-    - apk add fftw-dev --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/main/
-    - apk add vips-dev --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/
-    - yarn global add node-gyp
-    - yarn install --silent
-  artifacts:
-    paths:
-      - node_modules/
+before_script:
+  - apk add --update --no-cache python g++ make
+  - apk add fftw-dev --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/main/
+  - apk add vips-dev --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/
+  - yarn global add node-gyp
+  - yarn install --silent
 
 lint:
   stage: test
   script:
     - yarn lint
-  dependencies:
-    - init
 
 unit-test:
   stage: test
   script:
     - yarn test:unit
-  dependencies:
-    - init
+  only:
+    changes:
+      - './*'
+      - .storybook/**/*
+      - src/__test__/**/*
+      - src/components/**/*
+      - src/templates/**/*
+      - testing/**/*
 
 visual-regression-test:
   stage: test
@@ -41,19 +44,23 @@ visual-regression-test:
     - yarn storybook:build
   script:
     - yarn test:visual:ci
-  dependencies:
-    - init
   artifacts:
     when: on_failure
     paths:
       - src/__tests__/__image_snapshots__/__diff_output__/
+  only:
+    changes:
+      - './*'
+      - .storybook/**/*
+      - src/__test__/**/*
+      - src/components/**/*
+      - src/templates/**/*
+      - testing/**/*
 
 security:
   stage: test
   script:
     - yarn security
-  dependencies:
-    - init
   allow_failure: true
 
 outdated:

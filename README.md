@@ -53,15 +53,15 @@ Gunrock uses the Gatsby v2 site generator and is styled after the HTML5 Up Strat
 * [Node](https://nodejs.org/en/download/)
 * [Yarn](https://yarnpkg.com/lang/en/docs/install).
 * [Gatsby CLI](https://www.gatsbyjs.org/)
-* [Docker](https://docs.docker.com/install/) (Optional) To run visual regression tests
+* [Docker](https://docs.docker.com/install/) To run visual regression tests
 
 ### Commands
 
-* `yarn` - Installs dependencies
+* `yarn` - Installs dependencies.
 * `yarn start` - Start development server and open the website (<https://localhost:8000>) in your default browser
 * `yarn test:unit` - Run unit tests
   * (TODO) Add enzyme tests for NavBar once enzyme adds support for `React.memo`
-  * (TODO) Figure out more meaningful tests for Navigation and Layout (i.e. components with a gatsby `StaticQuery` component). This issue also affects tests for `src/pages` and `src/templates` components.
+  * Components with a gatsby `StaticQuery` component don't produce a meaningful render in Storybook, however they are valuable for visual regression testing.
 * `yarn test:visual` - Run visual regression tests
 * `yarn lint` - Lint JavaScript, Markdown, and YAML
 * `yarn storybook` - Start storybook (<https://localhost:9000>) and open in your default browser

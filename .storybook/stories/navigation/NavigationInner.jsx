@@ -8,8 +8,8 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 
 import NavigationInner from '../../../src/components/navigation/NavigationInner';
-import avatar from '../../../static/img/robot.jpg';
-import sidebarImg from '../../../static/img/grass-field-during-sunset.jpeg';
+import avatar from '../../resources/robot.jpg';
+import sidebarImg from '../../resources/grass-field-during-sunset.jpeg';
 
 const niNoContactsNoNavLinks = (
   <NavigationInner

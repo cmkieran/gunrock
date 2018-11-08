@@ -8,8 +8,8 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 
 import SideBar from '../../../src/components/navigation/SideBar';
-import avatar from '../../../static/img/robot.jpg';
-import sidebarImg from '../../../static/img/grass-field-during-sunset.jpeg';
+import avatar from '../../resources/robot.jpg';
+import sidebarImg from '../../resources/grass-field-during-sunset.jpeg';
 
 const props = {
   bio: {

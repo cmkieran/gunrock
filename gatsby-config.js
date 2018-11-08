@@ -115,7 +115,7 @@ module.exports = {
             `Content-Security-Policy: ${policyBuilder({
               directives: {
                 defaultSrc: "'none'",
-                scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval"],
+                scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'"],
                 styleSrc: ["'self'", "'unsafe-inline'", 'https://fonts.googleapis.com'],
                 imgSrc: 'https:',
                 mediaSrc: 'https:',

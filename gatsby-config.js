@@ -114,13 +114,16 @@ module.exports = {
           '/*': [
             `Content-Security-Policy: ${cspBuilder({
               directives: {
-                defaultSrc: 'none',
-                scriptSrc: ['self', 'unsafe-inline'],
-                styleSrc: ['self', 'unsafe-inline', 'https://fonts.googleapis.com'],
+                defaultSrc: "'none'",
+                scriptSrc: ["'self'", "'unsafe-inline'"],
+                styleSrc: ["'self'", "'unsafe-inline'", 'https://fonts.googleapis.com'],
                 imgSrc: 'https:',
                 mediaSrc: 'https:',
-                fontSrc: 'https://fonts.gstatic.com',
-                connectSrc: 'self',
+                fontSrc: ['data:', 'https://fonts.gstatic.com'],
+                connectSrc: "'self'",
+                formAction: "'self'",
+                frameAncestors: "'self",
+                baseUri: "'self",
               }
             })}`,
             'Referrer-Policy: same-origin',

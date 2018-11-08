@@ -1,6 +1,79 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
 version: v1.13.1
-ignore: {}
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:braces:20180219':
+    - gatsby-source-filesystem > chokidar > anymatch > micromatch > braces:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.044Z'
+    - gatsby > gatsby-plugin-page-creator > chokidar > anymatch > micromatch > braces:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.044Z'
+    - gatsby-plugin-sharp > imagemin-mozjpeg > mozjpeg > bin-wrapper > download > vinyl-fs > glob-stream > micromatch > braces:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.044Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > download > vinyl-fs > glob-stream > micromatch > braces:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.044Z'
+    - gatsby-plugin-sharp > imagemin-mozjpeg > mozjpeg > bin-build > download > vinyl-fs > glob-stream > micromatch > braces:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.044Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.044Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-wrapper > download > vinyl-fs > glob-stream > micromatch > braces:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.044Z'
+    - gatsby-plugin-sharp > imagemin-mozjpeg > mozjpeg > bin-build > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.044Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.044Z'
+    - gatsby-plugin-sharp > imagemin-mozjpeg > mozjpeg > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.044Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.044Z'
+    - gatsby-plugin-sharp > imagemin-mozjpeg > mozjpeg > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > micromatch > braces:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.044Z'
+  'npm:chownr:20180731':
+    - gatsby > terser-webpack-plugin > cacache > chownr:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.044Z'
+    - gatsby-plugin-manifest > sharp > tar > chownr:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.045Z'
+    - gatsby-plugin-sharp > sharp > tar > chownr:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.045Z'
+    - gatsby-transformer-sharp > sharp > tar > chownr:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.045Z'
+    - gatsby > webpack > uglifyjs-webpack-plugin > cacache > chownr:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.045Z'
+    - gatsby-plugin-netlify-cms > webpack > uglifyjs-webpack-plugin > cacache > chownr:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.045Z'
+    - gatsby-plugin-manifest > sharp > prebuild-install > tar-fs > chownr:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.045Z'
+    - gatsby-plugin-sharp > sharp > prebuild-install > tar-fs > chownr:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.045Z'
+    - gatsby-transformer-sharp > sharp > prebuild-install > tar-fs > chownr:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.045Z'
+  'npm:mem:20180117':
+    - gatsby > gatsby-cli > yargs > os-locale > mem:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.045Z'
+    - gatsby > relay-compiler > yargs > os-locale > mem:
+        reason: No patch or upgrade available
+        expires: '2018-12-08T00:40:36.045Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:lodash:20180130':

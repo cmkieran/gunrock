@@ -35,6 +35,9 @@ const NavigationInner = ({
   bio, copyright, navLinks, sidebarImg
 }) => (
   <div>
+    <noscript>
+      <SideBar bio={bio} copyright={copyright} navLinks={navLinks} sidebarImg={sidebarImg} />
+    </noscript>
     <Hidden mdUp>
       <NavBar bio={bio} copyright={copyright} navLinks={navLinks} />
     </Hidden>

@@ -7,7 +7,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import { article } from '../../sampleAst';
+import { article } from '../../resources/sampleAst';
 import Article from '../../../src/components/articles/Article';
 
 storiesOf('articles/Article', module)

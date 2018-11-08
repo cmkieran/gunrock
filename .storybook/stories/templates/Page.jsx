@@ -7,7 +7,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import { simple } from '../../sampleAst';
+import { simple } from '../../resources/sampleAst';
 import Page from '../../../src/templates/Page';
 
 storiesOf('StaticQuery', module)

@@ -15,11 +15,6 @@ const styles = (theme) => ({
   cardContent: {
     paddingTop: 0,
     paddingBottom: 0
-  },
-  container: {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
   }
 });
 

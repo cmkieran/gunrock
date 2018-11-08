@@ -8,7 +8,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 
 import PageSummary from '../../../src/components/site/PageSummary';
-import { simple } from '../../sampleAst';
+import { simple } from '../../resources/sampleAst';
 
 storiesOf('site', module)
   .add('PageSummary', () => (

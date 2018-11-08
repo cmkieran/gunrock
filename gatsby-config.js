@@ -119,16 +119,17 @@ module.exports = {
                 styleSrc: ["'self'", "'unsafe-inline'", 'https://fonts.googleapis.com'],
                 imgSrc: 'https:',
                 mediaSrc: 'https:',
-                fontSrc: ['data:', 'https://fonts.gstatic.com'],
-                connectSrc: "'self'",
+                fontSrc: ["'self'", 'data:', 'https://fonts.gstatic.com'],
+                connectSrc: ["'self'", 'https://fonts.googleapis.com'],
                 formAction: "'self'",
-                frameAncestors: "'self",
-                baseUri: "'self",
+                frameAncestors: "'self'",
+                baseUri: "'self'",
+                manifestSrc: "'self'"
               }
             })}`,
             'Referrer-Policy: same-origin',
-            'Feature-Policy: geolocation none; midi none; microphone none; camera none; magnetometer '
-            + 'none; gyroscope none; payment none',
+            "Feature-Policy: geolocation 'none'; midi 'none'; microphone 'none; camera 'none'; magnetometer "
+            + "'none'; gyroscope 'none; payment 'none'",
             'Strict-Transport-Security: max-age=63072000; includeSubDomains; preload'
           ]
         }

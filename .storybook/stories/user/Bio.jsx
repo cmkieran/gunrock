@@ -9,7 +9,7 @@ import { storiesOf } from '@storybook/react';
 import withPropsCombinations from 'react-storybook-addon-props-combinations';
 
 import Bio from '../../../src/components/user/Bio';
-import avatar from '../../../static/img/robot.jpg';
+import avatar from '../../resources/robot.jpg';
 
 storiesOf('user', module)
   .add('Bio', (withPropsCombinations(Bio, {

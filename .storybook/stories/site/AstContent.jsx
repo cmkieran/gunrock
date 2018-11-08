@@ -7,7 +7,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import { code, headings, katex, simple, table } from '../../sampleAst';
+import { code, headings, katex, simple, table } from '../../resources/sampleAst';
 import AstContent from '../../../src/components/site/AstContent';
 
 storiesOf('site/AstContent', module)

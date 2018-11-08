@@ -29,7 +29,8 @@
     "storybook": "testing/start-storybook.sh",
     "storybook:build": "build-storybook",
     "security": "yarn audit",
-    "snyk-protect": "snyk protect"
+    "snyk-protect": "snyk protect",
+    "postinstall": "hash=`sha256sum package.json | awk '{ print $1 }'` && sed -i \"s/key:.*$/key: ${hash}/g\" .gitlab-ci.yml"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.5",

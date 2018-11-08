@@ -1,4 +1,4 @@
-const cspBuilder = require('content-security-policy-builder');
+const policyBuilder = require('content-security-policy-builder');
 
 const site = require('./src/pages/site');
 const theme = require('./src/pages/theme');
@@ -112,10 +112,10 @@ module.exports = {
       options: {
         headers: {
           '/*': [
-            `Content-Security-Policy: ${cspBuilder({
+            `Content-Security-Policy: ${policyBuilder({
               directives: {
                 defaultSrc: "'none'",
-                scriptSrc: ["'self'", "'unsafe-inline'"],
+                scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval"],
                 styleSrc: ["'self'", "'unsafe-inline'", 'https://fonts.googleapis.com'],
                 imgSrc: 'https:',
                 mediaSrc: 'https:',
@@ -128,8 +128,17 @@ module.exports = {
               }
             })}`,
             'Referrer-Policy: same-origin',
-            "Feature-Policy: geolocation 'none'; midi 'none'; microphone 'none; camera 'none'; magnetometer "
-            + "'none'; gyroscope 'none; payment 'none'",
+            `Feature-Policy: ${policyBuilder({
+              directives: {
+                geolocation: "'none'",
+                midi: "'none'",
+                microphone: "'none'",
+                camera: "'none'",
+                magnetometer: "'none'",
+                gyroscope: "'none'",
+                payment: "'none'",
+              }
+            })}`,
             'Strict-Transport-Security: max-age=63072000; includeSubDomains; preload'
           ]
         }

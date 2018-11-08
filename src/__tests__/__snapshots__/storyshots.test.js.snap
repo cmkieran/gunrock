@@ -6219,6 +6219,7 @@ exports[`Storyshots navigation/NavBar Closed 1`] = `
   >
     <button
       aria-haspopup="true"
+      aria-label="Menu"
       aria-owns={null}
       className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit"
       disabled={false}
@@ -6575,6 +6576,7 @@ exports[`Storyshots navigation/NavBar With contact links 1`] = `
   >
     <button
       aria-haspopup="true"
+      aria-label="Menu"
       aria-owns="appbar-drawer"
       className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit"
       disabled={false}
@@ -6810,6 +6812,7 @@ exports[`Storyshots navigation/NavBar With everything 1`] = `
   >
     <button
       aria-haspopup="true"
+      aria-label="Menu"
       aria-owns="appbar-drawer"
       className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit"
       disabled={false}
@@ -7150,6 +7153,7 @@ exports[`Storyshots navigation/NavBar With navigation links 1`] = `
   >
     <button
       aria-haspopup="true"
+      aria-label="Menu"
       aria-owns="appbar-drawer"
       className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit"
       disabled={false}
@@ -7344,6 +7348,59 @@ exports[`Storyshots navigation/NavBar With navigation links 1`] = `
 
 exports[`Storyshots navigation/NavigationInner No links (Desktop) 1`] = `
 <div>
+  <noscript>
+    <div
+      className="MuiGrid-container MuiGrid-justify-xs-center SideBar-sidebar"
+      style={
+        Object {
+          "backgroundImage": "url(IMAGE_MOCK)",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-item MuiGrid-grid-xs-10 SideBar-container"
+      >
+        <section
+          className="Component-wrapper"
+        >
+          <div
+            className="MuiAvatar-root Component-avatar"
+          >
+            <img
+              alt="John Doe's avatar"
+              className="MuiAvatar-img"
+              src="IMAGE_MOCK"
+            />
+          </div>
+          <h4
+            className="MuiTypography-root MuiTypography-h4"
+          >
+            John Doe
+          </h4>
+          <p
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Somewhere, Else
+          </p>
+        </section>
+        <section
+          className="SideBar-wrapper"
+        >
+          <div
+            className="SideBar-container"
+          />
+          <div
+            className="SideBar-buttonWrapper"
+          />
+          <span
+            className="MuiTypography-root MuiTypography-caption SideBar-copyright"
+          >
+            Copyright all the things!
+          </span>
+        </section>
+      </div>
+    </div>
+  </noscript>
   <div
     className="MuiGrid-container MuiGrid-justify-xs-center SideBar-sidebar"
     style={
@@ -7362,6 +7419,7 @@ exports[`Storyshots navigation/NavigationInner No links (Desktop) 1`] = `
           className="MuiAvatar-root Component-avatar"
         >
           <img
+            alt="John Doe's avatar"
             className="MuiAvatar-img"
             src="IMAGE_MOCK"
           />
@@ -7399,6 +7457,59 @@ exports[`Storyshots navigation/NavigationInner No links (Desktop) 1`] = `
 
 exports[`Storyshots navigation/NavigationInner No links (Mobile) 1`] = `
 <div>
+  <noscript>
+    <div
+      className="MuiGrid-container MuiGrid-justify-xs-center SideBar-sidebar"
+      style={
+        Object {
+          "backgroundImage": "url(IMAGE_MOCK)",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-item MuiGrid-grid-xs-10 SideBar-container"
+      >
+        <section
+          className="Component-wrapper"
+        >
+          <div
+            className="MuiAvatar-root Component-avatar"
+          >
+            <img
+              alt="John Doe's avatar"
+              className="MuiAvatar-img"
+              src="IMAGE_MOCK"
+            />
+          </div>
+          <h4
+            className="MuiTypography-root MuiTypography-h4"
+          >
+            John Doe
+          </h4>
+          <p
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Somewhere, Else
+          </p>
+        </section>
+        <section
+          className="SideBar-wrapper"
+        >
+          <div
+            className="SideBar-container"
+          />
+          <div
+            className="SideBar-buttonWrapper"
+          />
+          <span
+            className="MuiTypography-root MuiTypography-caption SideBar-copyright"
+          >
+            Copyright all the things!
+          </span>
+        </section>
+      </div>
+    </div>
+  </noscript>
   <div
     className="MuiGrid-container MuiGrid-justify-xs-center SideBar-sidebar"
     style={
@@ -7417,6 +7528,7 @@ exports[`Storyshots navigation/NavigationInner No links (Mobile) 1`] = `
           className="MuiAvatar-root Component-avatar"
         >
           <img
+            alt="John Doe's avatar"
             className="MuiAvatar-img"
             src="IMAGE_MOCK"
           />
@@ -7454,6 +7566,384 @@ exports[`Storyshots navigation/NavigationInner No links (Mobile) 1`] = `
 
 exports[`Storyshots navigation/NavigationInner With links (Desktop) 1`] = `
 <div>
+  <noscript>
+    <div
+      className="MuiGrid-container MuiGrid-justify-xs-center SideBar-sidebar"
+      style={
+        Object {
+          "backgroundImage": "url(IMAGE_MOCK)",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-item MuiGrid-grid-xs-10 SideBar-container"
+      >
+        <section
+          className="Component-wrapper"
+        >
+          <div
+            className="MuiAvatar-root Component-avatar"
+          >
+            <img
+              alt="John Doe's avatar"
+              className="MuiAvatar-img"
+              src="IMAGE_MOCK"
+            />
+          </div>
+          <h4
+            className="MuiTypography-root MuiTypography-h4"
+          >
+            John Doe
+          </h4>
+          <p
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Somewhere, Else
+          </p>
+        </section>
+        <section
+          className="SideBar-wrapper"
+        >
+          <div
+            className="SideBar-container"
+          >
+            <a
+              aria-describedby={null}
+              aria-label="Home"
+              className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-raised MuiButton-raisedSecondary Component-button"
+              href="/"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+              title="Home"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-home fa-w-18 "
+                  data-icon="home"
+                  data-prefix="fas"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M488 312.7V456c0 13.3-10.7 24-24 24H348c-6.6 0-12-5.4-12-12V356c0-6.6-5.4-12-12-12h-72c-6.6 0-12 5.4-12 12v112c0 6.6-5.4 12-12 12H112c-13.3 0-24-10.7-24-24V312.7c0-3.6 1.6-7 4.4-9.3l188-154.8c4.4-3.6 10.8-3.6 15.3 0l188 154.8c2.7 2.3 4.3 5.7 4.3 9.3zm83.6-60.9L488 182.9V44.4c0-6.6-5.4-12-12-12h-56c-6.6 0-12 5.4-12 12V117l-89.5-73.7c-17.7-14.6-43.3-14.6-61 0L4.4 251.8c-5.1 4.2-5.8 11.8-1.6 16.9l25.5 31c4.2 5.1 11.8 5.8 16.9 1.6l235.2-193.7c4.4-3.6 10.8-3.6 15.3 0l235.2 193.7c5.1 4.2 12.7 3.5 16.9-1.6l25.5-31c4.2-5.2 3.4-12.7-1.7-16.9z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+                <span
+                  className="Component-text"
+                >
+                  Home
+                </span>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              aria-describedby={null}
+              aria-label="Curriculum Vitae"
+              className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-raised MuiButton-raisedSecondary Component-button"
+              href="/cv"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+              title="Curriculum Vitae"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-file-alt fa-w-12 "
+                  data-icon="file-alt"
+                  data-prefix="fas"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 384 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm64 236c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-64c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-72v8c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm96-114.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+                <span
+                  className="Component-text"
+                >
+                  Curriculum Vitae
+                </span>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              aria-describedby={null}
+              aria-label="My Research"
+              className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-raised MuiButton-raisedSecondary Component-button"
+              href="/research"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+              title="My Research"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-newspaper fa-w-18 "
+                  data-icon="newspaper"
+                  data-prefix="fas"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M552 64H88c-13.255 0-24 10.745-24 24v8H24c-13.255 0-24 10.745-24 24v272c0 30.928 25.072 56 56 56h472c26.51 0 48-21.49 48-48V88c0-13.255-10.745-24-24-24zM56 400a8 8 0 0 1-8-8V144h16v248a8 8 0 0 1-8 8zm236-16H140c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm208 0H348c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm-208-96H140c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm208 0H348c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm0-96H140c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h360c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+                <span
+                  className="Component-text"
+                >
+                  My Research
+                </span>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+          <div
+            className="SideBar-buttonWrapper"
+          >
+            <a
+              aria-describedby={null}
+              aria-label="Github"
+              className="MuiButtonBase-root MuiButton-root MuiButton-fab MuiButton-mini MuiButton-contained MuiButton-containedPrimary MuiButton-raised MuiButton-raisedPrimary Component-button"
+              href="https://github.com/ucdavis"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+              title="Github"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-github fa-w-16 "
+                  data-icon="github"
+                  data-prefix="fab"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 496 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              aria-describedby={null}
+              aria-label="LinkedIn"
+              className="MuiButtonBase-root MuiButton-root MuiButton-fab MuiButton-mini MuiButton-contained MuiButton-containedPrimary MuiButton-raised MuiButton-raisedPrimary Component-button"
+              href="https://www.linkedin.com/in/advancedgraduate"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+              title="LinkedIn"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-linkedin fa-w-14 "
+                  data-icon="linkedin"
+                  data-prefix="fab"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              aria-describedby={null}
+              aria-label="Phone"
+              className="MuiButtonBase-root MuiButton-root MuiButton-fab MuiButton-mini MuiButton-contained MuiButton-containedPrimary MuiButton-raised MuiButton-raisedPrimary Component-button"
+              href="tel:5305552233"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+              title="Phone"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-phone fa-w-16 "
+                  data-icon="phone"
+                  data-prefix="fas"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              aria-describedby={null}
+              aria-label="e-mail"
+              className="MuiButtonBase-root MuiButton-root MuiButton-fab MuiButton-mini MuiButton-contained MuiButton-containedPrimary MuiButton-raised MuiButton-raisedPrimary Component-button"
+              href="mailto:adgraduate@ucdavis.edu"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+              title="e-mail"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-envelope fa-w-16 "
+                  data-icon="envelope"
+                  data-prefix="fas"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+          <span
+            className="MuiTypography-root MuiTypography-caption SideBar-copyright"
+          >
+            Copyright all the things!
+          </span>
+        </section>
+      </div>
+    </div>
+  </noscript>
   <div
     className="MuiGrid-container MuiGrid-justify-xs-center SideBar-sidebar"
     style={
@@ -7472,6 +7962,7 @@ exports[`Storyshots navigation/NavigationInner With links (Desktop) 1`] = `
           className="MuiAvatar-root Component-avatar"
         >
           <img
+            alt="John Doe's avatar"
             className="MuiAvatar-img"
             src="IMAGE_MOCK"
           />
@@ -7834,6 +8325,384 @@ exports[`Storyshots navigation/NavigationInner With links (Desktop) 1`] = `
 
 exports[`Storyshots navigation/NavigationInner With links (Mobile) 1`] = `
 <div>
+  <noscript>
+    <div
+      className="MuiGrid-container MuiGrid-justify-xs-center SideBar-sidebar"
+      style={
+        Object {
+          "backgroundImage": "url(IMAGE_MOCK)",
+        }
+      }
+    >
+      <div
+        className="MuiGrid-item MuiGrid-grid-xs-10 SideBar-container"
+      >
+        <section
+          className="Component-wrapper"
+        >
+          <div
+            className="MuiAvatar-root Component-avatar"
+          >
+            <img
+              alt="John Doe's avatar"
+              className="MuiAvatar-img"
+              src="IMAGE_MOCK"
+            />
+          </div>
+          <h4
+            className="MuiTypography-root MuiTypography-h4"
+          >
+            John Doe
+          </h4>
+          <p
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Somewhere, Else
+          </p>
+        </section>
+        <section
+          className="SideBar-wrapper"
+        >
+          <div
+            className="SideBar-container"
+          >
+            <a
+              aria-describedby={null}
+              aria-label="Home"
+              className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-raised MuiButton-raisedSecondary Component-button"
+              href="/"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+              title="Home"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-home fa-w-18 "
+                  data-icon="home"
+                  data-prefix="fas"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M488 312.7V456c0 13.3-10.7 24-24 24H348c-6.6 0-12-5.4-12-12V356c0-6.6-5.4-12-12-12h-72c-6.6 0-12 5.4-12 12v112c0 6.6-5.4 12-12 12H112c-13.3 0-24-10.7-24-24V312.7c0-3.6 1.6-7 4.4-9.3l188-154.8c4.4-3.6 10.8-3.6 15.3 0l188 154.8c2.7 2.3 4.3 5.7 4.3 9.3zm83.6-60.9L488 182.9V44.4c0-6.6-5.4-12-12-12h-56c-6.6 0-12 5.4-12 12V117l-89.5-73.7c-17.7-14.6-43.3-14.6-61 0L4.4 251.8c-5.1 4.2-5.8 11.8-1.6 16.9l25.5 31c4.2 5.1 11.8 5.8 16.9 1.6l235.2-193.7c4.4-3.6 10.8-3.6 15.3 0l235.2 193.7c5.1 4.2 12.7 3.5 16.9-1.6l25.5-31c4.2-5.2 3.4-12.7-1.7-16.9z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+                <span
+                  className="Component-text"
+                >
+                  Home
+                </span>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              aria-describedby={null}
+              aria-label="Curriculum Vitae"
+              className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-raised MuiButton-raisedSecondary Component-button"
+              href="/cv"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+              title="Curriculum Vitae"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-file-alt fa-w-12 "
+                  data-icon="file-alt"
+                  data-prefix="fas"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 384 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm64 236c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-64c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-72v8c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm96-114.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+                <span
+                  className="Component-text"
+                >
+                  Curriculum Vitae
+                </span>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              aria-describedby={null}
+              aria-label="My Research"
+              className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary MuiButton-raised MuiButton-raisedSecondary Component-button"
+              href="/research"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+              title="My Research"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-newspaper fa-w-18 "
+                  data-icon="newspaper"
+                  data-prefix="fas"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M552 64H88c-13.255 0-24 10.745-24 24v8H24c-13.255 0-24 10.745-24 24v272c0 30.928 25.072 56 56 56h472c26.51 0 48-21.49 48-48V88c0-13.255-10.745-24-24-24zM56 400a8 8 0 0 1-8-8V144h16v248a8 8 0 0 1-8 8zm236-16H140c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm208 0H348c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm-208-96H140c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm208 0H348c-6.627 0-12-5.373-12-12v-8c0-6.627 5.373-12 12-12h152c6.627 0 12 5.373 12 12v8c0 6.627-5.373 12-12 12zm0-96H140c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h360c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+                <span
+                  className="Component-text"
+                >
+                  My Research
+                </span>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+          <div
+            className="SideBar-buttonWrapper"
+          >
+            <a
+              aria-describedby={null}
+              aria-label="Github"
+              className="MuiButtonBase-root MuiButton-root MuiButton-fab MuiButton-mini MuiButton-contained MuiButton-containedPrimary MuiButton-raised MuiButton-raisedPrimary Component-button"
+              href="https://github.com/ucdavis"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+              title="Github"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-github fa-w-16 "
+                  data-icon="github"
+                  data-prefix="fab"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 496 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              aria-describedby={null}
+              aria-label="LinkedIn"
+              className="MuiButtonBase-root MuiButton-root MuiButton-fab MuiButton-mini MuiButton-contained MuiButton-containedPrimary MuiButton-raised MuiButton-raisedPrimary Component-button"
+              href="https://www.linkedin.com/in/advancedgraduate"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+              title="LinkedIn"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-linkedin fa-w-14 "
+                  data-icon="linkedin"
+                  data-prefix="fab"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              aria-describedby={null}
+              aria-label="Phone"
+              className="MuiButtonBase-root MuiButton-root MuiButton-fab MuiButton-mini MuiButton-contained MuiButton-containedPrimary MuiButton-raised MuiButton-raisedPrimary Component-button"
+              href="tel:5305552233"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+              title="Phone"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-phone fa-w-16 "
+                  data-icon="phone"
+                  data-prefix="fas"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+            <a
+              aria-describedby={null}
+              aria-label="e-mail"
+              className="MuiButtonBase-root MuiButton-root MuiButton-fab MuiButton-mini MuiButton-contained MuiButton-containedPrimary MuiButton-raised MuiButton-raisedPrimary Component-button"
+              href="mailto:adgraduate@ucdavis.edu"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+              title="e-mail"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="svg-inline--fa fa-envelope fa-w-16 "
+                  data-icon="envelope"
+                  data-prefix="fas"
+                  role="img"
+                  style={Object {}}
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+                    fill="currentColor"
+                    style={Object {}}
+                  />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root"
+              />
+            </a>
+          </div>
+          <span
+            className="MuiTypography-root MuiTypography-caption SideBar-copyright"
+          >
+            Copyright all the things!
+          </span>
+        </section>
+      </div>
+    </div>
+  </noscript>
   <div
     className="MuiGrid-container MuiGrid-justify-xs-center SideBar-sidebar"
     style={
@@ -7852,6 +8721,7 @@ exports[`Storyshots navigation/NavigationInner With links (Mobile) 1`] = `
           className="MuiAvatar-root Component-avatar"
         >
           <img
+            alt="John Doe's avatar"
             className="MuiAvatar-img"
             src="IMAGE_MOCK"
           />
@@ -8231,6 +9101,7 @@ exports[`Storyshots navigation/SideBar Much Empty 1`] = `
         className="MuiAvatar-root Component-avatar"
       >
         <img
+          alt="John Doe's avatar"
           className="MuiAvatar-img"
           src="IMAGE_MOCK"
         />
@@ -8284,6 +9155,7 @@ exports[`Storyshots navigation/SideBar With background image 1`] = `
         className="MuiAvatar-root Component-avatar"
       >
         <img
+          alt="John Doe's avatar"
           className="MuiAvatar-img"
           src="IMAGE_MOCK"
         />
@@ -8337,6 +9209,7 @@ exports[`Storyshots navigation/SideBar With contact links 1`] = `
         className="MuiAvatar-root Component-avatar"
       >
         <img
+          alt="John Doe's avatar"
           className="MuiAvatar-img"
           src="IMAGE_MOCK"
         />
@@ -8567,6 +9440,7 @@ exports[`Storyshots navigation/SideBar With everything 1`] = `
         className="MuiAvatar-root Component-avatar"
       >
         <img
+          alt="John Doe's avatar"
           className="MuiAvatar-img"
           src="IMAGE_MOCK"
         />
@@ -8945,6 +9819,7 @@ exports[`Storyshots navigation/SideBar With navigation links 1`] = `
         className="MuiAvatar-root Component-avatar"
       >
         <img
+          alt="John Doe's avatar"
           className="MuiAvatar-img"
           src="IMAGE_MOCK"
         />
@@ -9132,6 +10007,35 @@ exports[`Storyshots site LayoutInner (no title) 1`] = `
   className="MuiGrid-container LayoutInner-root"
 >
   <div
+    className="MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <noscript>
+      <div
+        className="Component-noScript"
+      >
+        <h6
+          className="MuiTypography-root MuiTypography-h6 Component-text"
+        >
+          JavaScript is disabled
+        </h6>
+        <h6
+          className="MuiTypography-root MuiTypography-subtitle1 Component-text"
+        >
+          Some parts of the site may not work properly. For instructions on how to enable Javascript 
+          <a
+            className="Component-text"
+            href="http://www.enable-javascript.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            click here
+          </a>
+          .
+        </h6>
+      </div>
+    </noscript>
+  </div>
+  <div
     className="MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4"
   >
     <div>
@@ -9161,6 +10065,35 @@ exports[`Storyshots site LayoutInner 1`] = `
   className="MuiGrid-container LayoutInner-root"
 >
   <div
+    className="MuiGrid-item MuiGrid-grid-xs-12"
+  >
+    <noscript>
+      <div
+        className="Component-noScript"
+      >
+        <h6
+          className="MuiTypography-root MuiTypography-h6 Component-text"
+        >
+          JavaScript is disabled
+        </h6>
+        <h6
+          className="MuiTypography-root MuiTypography-subtitle1 Component-text"
+        >
+          Some parts of the site may not work properly. For instructions on how to enable Javascript 
+          <a
+            className="Component-text"
+            href="http://www.enable-javascript.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            click here
+          </a>
+          .
+        </h6>
+      </div>
+    </noscript>
+  </div>
+  <div
     className="MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4"
   >
     <div>
@@ -9182,6 +10115,32 @@ exports[`Storyshots site LayoutInner 1`] = `
       </div>
     </div>
   </div>
+</div>
+`;
+
+exports[`Storyshots site NoScript 1`] = `
+<div
+  className="Component-noScript"
+>
+  <h6
+    className="MuiTypography-root MuiTypography-h6 Component-text"
+  >
+    JavaScript is disabled
+  </h6>
+  <h6
+    className="MuiTypography-root MuiTypography-subtitle1 Component-text"
+  >
+    Some parts of the site may not work properly. For instructions on how to enable Javascript 
+    <a
+      className="Component-text"
+      href="http://www.enable-javascript.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      click here
+    </a>
+    .
+  </h6>
 </div>
 `;
 
@@ -11258,6 +12217,7 @@ exports[`Storyshots user Bio 1`] = `
         className="MuiAvatar-root Component-avatar"
       >
         <img
+          alt="James Smith's avatar"
           className="MuiAvatar-img"
           src="IMAGE_MOCK"
         />
@@ -11293,6 +12253,7 @@ exports[`Storyshots user Bio 1`] = `
         className="MuiAvatar-root Component-avatar"
       >
         <img
+          alt="James Smith's avatar"
           className="MuiAvatar-img"
           src="IMAGE_MOCK"
         />
@@ -11328,6 +12289,7 @@ exports[`Storyshots user Bio 1`] = `
         className="MuiAvatar-root Component-avatar"
       >
         <img
+          alt="James Smith's avatar"
           className="MuiAvatar-img"
           src="IMAGE_MOCK"
         />

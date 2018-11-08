@@ -76,6 +76,7 @@ class NavBar extends PureComponent {
               id="hamburger"
               aria-owns={isOpen ? 'appbar-drawer' : null}
               aria-haspopup="true"
+              aria-label="Menu"
               onClick={handleOpen}
               color="inherit"
             >

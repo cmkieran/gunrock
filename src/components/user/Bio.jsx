@@ -30,7 +30,7 @@ const Bio = React.memo(({
   avatar, classes, name, location
 }) => (
   <section className={classes.wrapper}>
-    <Avatar src={avatar} className={classes.avatar} />
+    <Avatar src={avatar} alt={`${name}'s avatar`} className={classes.avatar} />
     <Typography variant="h4">
       {name}
     </Typography>

@@ -22,16 +22,9 @@ lint:
 
 unit-test:
   stage: test
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)'/
   script:
     - yarn test:unit
-  only:
-    changes:
-      - './*'
-      - .storybook/**/*
-      - src/__test__/**/*
-      - src/components/**/*
-      - src/templates/**/*
-      - testing/**/*
 
 visual-regression-test:
   stage: test
@@ -67,6 +60,4 @@ outdated:
   stage: test
   script:
     - yarn outdated
-  only:
-    - master
   allow_failure: true

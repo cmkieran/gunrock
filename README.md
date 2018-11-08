@@ -8,6 +8,8 @@
 
 Professional website for UC Davis Agricultural and Resource Economics PhD candidates
 
+![Alt text](frontpage.png "Gunrock frontpage screenshot")
+
 ## Getting Started
 
 Gunrock uses the Gatsby v2 site generator and is styled after the HTML5 Up Strata theme.
@@ -65,11 +67,11 @@ Gunrock uses the Gatsby v2 site generator and is styled after the HTML5 Up Strat
 * `yarn test:visual` - Run visual regression tests
 * `yarn lint` - Lint JavaScript, Markdown, and YAML
 * `yarn storybook` - Start storybook (<https://localhost:9000>) and open in your default browser
-* `yarn security` - 
+* `yarn security` - Audit dependencies for known security vulnerabilities
 
 ## Working with content
 
-(TODO)
+Once you have deployed the site, navigate to `/admin` and to create or edit content.
 
 ## Versioning
 

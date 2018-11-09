@@ -28,14 +28,12 @@ unit-test:
 
 visual-regression-test:
   stage: test
-  before_script:
+  script:
     - apk add --update --no-cache git chromium nss
     - apk add fftw-dev --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/main/
     - apk add vips-dev --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/
-    - yarn install --silent
     - yarn build
     - yarn storybook:build
-  script:
     - yarn test:visual:ci
   artifacts:
     when: on_failure

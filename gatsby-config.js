@@ -117,7 +117,7 @@ module.exports = {
                 defaultSrc: "'none'",
                 scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'"],
                 styleSrc: ["'self'", "'unsafe-inline'", 'https://fonts.googleapis.com'],
-                imgSrc: 'https:',
+                imgSrc: ['https:', 'data:', 'blob:'],
                 mediaSrc: 'https:',
                 fontSrc: ["'self'", 'data:', 'https://fonts.gstatic.com'],
                 connectSrc: ["'self'", 'https://fonts.googleapis.com'],

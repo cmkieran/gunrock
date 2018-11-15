@@ -10,8 +10,8 @@ stages:
 
 before_script:
   - apk add --update --no-cache python g++ make
-  - apk add fftw-dev --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/main/
-  - apk add vips-dev --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/
+  - apk add fftw-dev --update --no-cache --repository https://mirror.clarkson.edu/alpine/edge/main/
+  - apk add vips-dev --update --no-cache --repository https://mirror.clarkson.edu/alpine/edge/testing/
   - yarn global add node-gyp
   - yarn install --silent
 
@@ -22,7 +22,6 @@ lint:
 
 unit-test:
   stage: test
-  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)'/
   script:
     - yarn test:unit
 
@@ -30,8 +29,8 @@ visual-regression-test:
   stage: test
   script:
     - apk add --update --no-cache git chromium nss
-    - apk add fftw-dev --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/main/
-    - apk add vips-dev --update --no-cache --repository https://dl-3.alpinelinux.org/alpine/edge/testing/
+    - apk add fftw-dev --update --no-cache --repository https://mirror.clarkson.edu/alpine/edge/main/
+    - apk add vips-dev --update --no-cache --repository https://mirror.clarkson.edu/alpine/edge/testing/
     - yarn build
     - yarn storybook:build
     - yarn test:visual:ci
